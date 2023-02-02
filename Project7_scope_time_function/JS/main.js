@@ -27,7 +27,7 @@ function Add_numbers_1() {
     console.log(15 +x);
 }
 function Add_numbers_2() {
-    console.log(x +100);
+    console.log(y +100);
 }
 Add_numbers_1();
 Add_numbers_2();
