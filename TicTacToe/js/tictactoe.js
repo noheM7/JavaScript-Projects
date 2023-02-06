@@ -121,7 +121,7 @@ function animatelinedrawing(){
     c.lineTo(x,y);
     c.lineWidth=10;
     c.strokeStyle= 'rgba(70,255,33,.8)';
-
+    c.stroke();
     if (x1<=x2 && y1<=y2){
         if(x<x2){x+=10}
         if (y<y2) {y +=10;}
