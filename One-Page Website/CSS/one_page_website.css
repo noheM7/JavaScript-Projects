@@ -1,0 +1,325 @@
+body{
+	background-color: grey;
+}
+#home {
+	padding: 40px;
+	color: white;
+	background-color: lightred;
+	font-size: 40px;
+	text-align: center;
+	position: relative;
+	bottom: 80px;
+	left: 5px;
+}
+div.container {
+  text-align: center;
+}
+
+h2{
+	font-size: 40px;
+	text-align: center;
+	position: relative;
+	bottom: 150px;
+}
+div.images{
+	text-align: center;
+  vertical-align: middle;
+
+}
+#paragraph{
+	font-size: 50px;
+	position: sticky;
+	text-align: center;
+	bottom: 2000px;
+
+
+
+}
+div.contact{
+font-size: 50px;
+position: relative;
+top: 20px;
+}
+footer{
+	text-align: center;
+}
+
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 0px auto;
+	background-color: rgba(109, 60, 243, 0.3);
+	box-shadow: 2px 2px 10px 0 rgba(230, 34, 34, 0.5);
+}
+
+#contact {
+	background-color: gray;
+}
+
+
+.reservation {
+	width: 30%;
+	padding: 10px;
+	border-radius: 8px;
+	margin: 0px auto;
+	background-color: rgba(233, 164, 36, 0.3);
+	box-shadow: -1px -1px -1px 0 rgb(120, 44, 44), 1px 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.reservation h2{
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	color: #13161B;
+	font-weight: 500;
+	font-size: 1.3em;
+	letter-spacing: 0pt;
+	word-spacing: 0pt;
+}
+
+.reservation h2 span {
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	color: #13161B;
+	font-weight: 900;
+	font-size: 1.5em;
+	font-variant: small-caps;
+	letter-spacing: .4pt;
+	word-spacing: .3pt;
+}
+
+.reservation p {
+	color: #13161B;
+	width: 50px;
+	margin: 0 auto;
+}
+
+.reservation form {
+	font-size: 15px;
+	outline: none;
+	font-weight: 600;
+	color: #8D8E8F;
+	padding: 12px 12px;
+	width: 70%;
+	border: 1px solid #808080;
+	margin:2% auto ;
+	border-radius: 7px;
+	background: rgb(227, 222, 222);
+	box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.3);
+	font-family: 'Raleway', sans-serif;
+}
+
+
+.reservation input[type="text"] {
+	font-size: 15px;
+	outline: none;
+	font-weight: 600;
+	color: #2e6aa5;
+	padding: 2% 1% 2% 7%;
+	width: 80%;
+	border-top: 1px solid #51759a;
+	border-right: 2px solid #1d66c6;
+	border-bottom: 2px solid #1068db;
+	border-left: 1px solid #18b818;
+	margin: 10px 1em;
+	border-radius: 7px;
+	background: #494c50;
+	box-shadow: inset 0px 3px 0px 0px rgba(204, 27, 27, 0.15);
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.reservation[type="text"]:hover {
+	box-shadow: 0 0 18px rgba(212, 159, 61, 0.8);
+}
+
+.form-spacer {
+	padding: 30px 39px;
+}
+
+.terms {
+	margin: 30px 1px 0 0;
+	margin-top: 13%;
+	padding-left: 52px;
+	 font-size: 14px;
+	 line-height: 5px;
+	 color:#000;
+	 cursor: pointer;
+	 font-family: 'Raleway', sans-serif;
+	 font-weight: 600;
+	 position: relative;
+	 display: inline;
+	 float: right;
+
+}
+
+.terms:hover{
+	color: orange;
+	text-decoration: underline;
+}
+
+.submit input[type="submit"]{
+	color: rgb(255, 255, 255);
+	cursor: pointer;
+	border: none;
+	font-weight: 900;
+	outline: none;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	margin: 0px 3%;
+	padding: 7px 0px;
+	width: 25%;
+	font-size: 18px;
+	transition: border-color 0.3s color 0.3s background-color 0.3s;
+	border-radius: 7px;
+	background-color: #797a7b;
+	box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.3);
+}
+
+.submit input[type="submit"]:hover {
+	color: #000;
+	background-color: #8D8E8F;
+	box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+* {
+	box-sizing: border-box;
+  }
+  
+  .row > .column {
+	padding: 0 8px;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  .column {
+	float: left;
+	width: 25%;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	position: relative;
+	background-color: #fefefe;
+	margin: auto;
+	padding: 0;
+	width: 90%;
+	max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  .mySlides {
+	display: none;
+  }
+  
+  .cursor {
+	cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  img {
+	margin-bottom: -4px;
+  }
+  
+  .caption-container {
+	text-align: center;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
+  }
+  
+  .demo {
+	opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+	opacity: 1;
+  }
+  
+  img.hover-shadow {
+	transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+
+
+
